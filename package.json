@@ -1,6 +1,6 @@
 {
   "name": "js-word-kana",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./dist/build.js",
   "repository": "https://github.com/sadnessOjisan/js-word-kana.git",
   "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
@@ -21,5 +21,8 @@
     "babel-loader": "^8.0.6",
     "webpack": "^4.32.2",
     "webpack-cli": "^3.3.2"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
