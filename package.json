@@ -4,5 +4,19 @@
   "main": "index.js",
   "repository": "https://github.com/sadnessOjisan/js-word-kana.git",
   "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build:local": "BUILD_MODE='development' REACT_APP_ENV=local webpack",
+    "build:dev": "BUILD_MODE='development' REACT_APP_ENV=development webpack",
+    "build:stg": "BUILD_MODE='production' REACT_APP_ENV=staging webpack",
+    "build:prd": "BUILD_MODE='production' REACT_APP_ENV=production webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
 }
