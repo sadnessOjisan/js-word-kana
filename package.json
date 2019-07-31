@@ -1,10 +1,13 @@
 {
   "name": "js-word-kana",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/build.js",
   "repository": "https://github.com/sadnessOjisan/js-word-kana.git",
   "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "haiku"
+  ],
   "scripts": {
     "build:local": "BUILD_MODE='development' REACT_APP_ENV=local webpack",
     "build:dev": "BUILD_MODE='development' REACT_APP_ENV=development webpack",
