@@ -4,4 +4,7 @@ export default {
   componentDidMount: "コンポーネントディドマウント",
   state: "ステート",
   setState: "セットステート",
+  ref: "レフ",
+  useState: "ユーズステート",
+  useEffect: "ユーズエフェクト",
 };
