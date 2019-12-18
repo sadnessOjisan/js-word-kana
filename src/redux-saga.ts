@@ -1,0 +1,15 @@
+export default {
+  "redux-saga": "",
+  CANCEL: "",
+  SAGA_LOCATION: "",
+  buffers: "",
+  detach: "",
+  END: "",
+  channel: "",
+  eventChannel: "",
+  isEnd: "",
+  multicastChannel: "",
+  runSaga: "",
+  stdChannel: "",
+  default: "",
+};

@@ -1,0 +1,17 @@
+export default {
+  "apollo-link": "",
+  empty: "",
+  from: "",
+  split: "",
+  concat: "",
+  ApolloLink: "",
+  request: "",
+  execute: "",
+  createOperation: "",
+  makePromise: "",
+  toPromise: "",
+  fromPromise: "",
+  fromError: "",
+  getOperationName: "",
+  Observable: "",
+};
